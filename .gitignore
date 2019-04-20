@@ -8,6 +8,8 @@
 .idea/**/dictionaries
 .idea/**/shelf
 
+target/
+
 *.imi
 *.iml
 
