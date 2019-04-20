@@ -2,7 +2,6 @@ package arrays;
 
 import java.util.HashSet;
 import java.util.Set;
-import java.lang.Math;
 
 class LongestSubstring {
 
@@ -10,10 +9,6 @@ class LongestSubstring {
       System.out.println(LongestSubstring.lengthOfLongestSubstring("abcabcbb"));
     }
 
-    /**
-     * Goal: Find the substring of the greatest length of characters that don't repeat
-     * abcabcbb -> abc abcb
-     * */
     public static int lengthOfLongestSubstring(String s) {
       int i,j,max;
       int stringLength = s.length();
